@@ -1,0 +1,65 @@
+npm init --yes 
+
+code server.js
+ls // to check list of files
+
+npm i express mongoose nodemailer dotenv ip
+npm i --save-dev nodemon
+
+//nodemon command    "start": "nodemon server.js"
+
+
+
+
+
+FOR GITHUB
+1.  git init
+2. git add .     //the "." means all
+3. git commit -m "messaje"
+4. Create a new repository at github website
+5. follow the github's instrution to push it
+6. git remote -v   this shows the available remotes
+7. heroku git:remote -a api-5-2     //from heroku website add this remote
+8. git push heroku main    // to push it to heroku
+
+
+…or create a new repository on the command line
+echo "# SERVER-API" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/giuseppefrj051/SERVER-API.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/giuseppefrj051/SERVER-API.git
+git branch -M main
+git push -u origin main
+
+
+
+
+///////////////////////
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/giuseppefrj051/rapid-energy-fuel-1.0.git
+git branch -M main
+git push -u origin main
+/////////
+
+
+
+
+…or create a new repository on the command line
+echo "# api-rapid-energy-2.0" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/giuseppefrj051/api-rapid-energy-2.0.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/giuseppefrj051/api-rapid-energy-2.0.git
+git branch -M main
+git push -u origin main
